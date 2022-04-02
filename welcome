@@ -1,0 +1,43 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    
+    
+    <%
+        String email = request.getParameter("email");
+        String name = request.getParameter("name");
+        String password = request.getParameter("password");
+        String date_of_birth = request.getParameter("date_of_birth");
+        String address = request.getParameter("address");
+        String tos = request.getParameter("tos");
+
+    %>
+    
+
+    <body>
+    <center>
+        <h1>Welcome! <%= name %></</h1>
+        <br>
+    </center>
+        <hr></hr>
+        <center>
+        <p>Your Email is <%= email %></p>
+        </center>
+        <center>
+        <p>Your Password is <%= password %></p>
+        </center>
+        <center>
+        <p>Your Date of birth is <%= date_of_birth %></p>
+        </center>
+        <center>
+        <p>Your Address is <%= address %></p>
+        </center>
+        <hr></hr>
+        
+        
+    </body>
+</html>
