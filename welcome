@@ -5,7 +5,20 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    
+    <style>
+      .button {
+        background-color: #79a7ed;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
     
     <%
         String email = request.getParameter("email");
@@ -37,7 +50,10 @@
         <p>Your Address is <%= address %></p>
         </center>
         <hr></hr>
-        <p align="center">Please click <a href="login.jsp">here</a> to reach the main page.</p>
-        
+    <center>   
+    <a href="main.jsp" class="button">Click To Continue</a>
+    </center>
+    
+       
     </body>
 </html>
