@@ -54,6 +54,9 @@
                 <tr><td><label for="date_of_birth">Date of birth: </label></td>
                     <td><input type="date" id="date_of_birth" name="date_of_birth" required></td></tr>
                 <tr><td></td></tr>
+                <tr><td><label for="mobile">mobile: </label></td>
+                    <td><input type="text" id="phone" name="phone"></td></tr>
+                <tr><td></td></tr>
                 <tr><td><label for="address">Address: </label></td>
                     <td><input type="text" id="address" name="address"></td></tr>
                 <tr><td></td></tr>
