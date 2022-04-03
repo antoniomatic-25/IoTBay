@@ -1,0 +1,37 @@
+h1{          
+    justify-content: center;            
+    align-items: center;  
+    display: flex;   
+}
+.box {
+    display: flex;    
+    justify-content: center;            
+    align-items: center;  
+    background-color: white;
+}
+.fil {
+    column-count: 2;
+    column-fill: balance;
+}
+.submit {
+    background-color: #79a7ed;
+    color: white;
+    font-size:22px;
+    padding: 16px;
+    margin: 8px;
+    border: 0px;
+    width: 300px;
+
+}
+.button {
+        background-color: #79a7ed;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
