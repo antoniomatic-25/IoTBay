@@ -25,6 +25,7 @@
         String name = request.getParameter("name");
         String password = request.getParameter("password");
         String date_of_birth = request.getParameter("date_of_birth");
+        String phone = request.getParameter("phone");
         String address = request.getParameter("address");
         String tos = request.getParameter("tos");
 
@@ -45,6 +46,9 @@
         </center>
         <center>
         <p>Your Date of birth is <%= date_of_birth %></p>
+        </center>
+        <center>
+        <p>Your mobile number is <%= phone %></p>
         </center>
         <center>
         <p>Your Address is <%= address %></p>
